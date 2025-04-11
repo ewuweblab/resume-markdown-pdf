@@ -20,9 +20,9 @@
 * Open the generated PDF file in your browser or PDF viewer
 
 # What is frontmatter?
-Frontmatter is a way to include metadata in your markdown files. It is typically used to specify options for the markdown processor, such as the stylesheet to use or the media type for printing.
+`resume.md` file includes *frontmatter* metadata aka "extra settings" which are used apply custom stylesheet and change default media type from `screen` to `print`.
 
-``` resume.md
+```
 ---
 stylesheet: style.css
 page_media_type: print
