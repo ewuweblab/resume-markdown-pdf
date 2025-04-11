@@ -1,9 +1,15 @@
-/* Your Styles */
+/* Screen Styles */
 
 
 /* Print Styling */
 @media print {
 
-    
+    body {
+        font-family: serif;
+    }
+
+    h1 {
+        color: rgb(17, 255, 0);
+    }
 
 }
